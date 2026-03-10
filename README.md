@@ -12,7 +12,6 @@ The undo functionality is implemented using a **stack data structure**.
 
 A stack follows the **LIFO (Last In First Out)** principle, meaning the most recent operation is undone first.
 
----
 
 ## Problem Statement
 
@@ -24,7 +23,6 @@ Design a simple text editor that allows:
 
 Each operation should update the current text and store the operation in a stack so it can be undone later.
 
----
 
 ## Data Structure Used
 
@@ -35,7 +33,7 @@ A stack is used to store the history of operations.
 Stack operations used:
 
 | Operation | Description |
-|--------|-------------|
+
 | push | Store a new operation |
 | pop | Remove the last operation |
 | isEmpty | Check if stack is empty |
